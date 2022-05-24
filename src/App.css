@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "./image-gallery.css";
+
+/* ImageGallery {
+  max-height:calc(60vh - 80px)!important;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
+  font-family: "Montserrat";
 }
 
 .App-logo {
@@ -16,12 +28,11 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +46,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+	background-image: url("../public/raychan.jpg") !important;
+	background-size: 100%;
+}
+
+.heading h1 {
+	/* font-size: 10rem; */
+  font-size: calc(90px + 2vmin);
+  color: white;
+  font-weight: 800;
+  opacity: 80%;
+	font-family: "Montserrat", sans-serif;
+}
+.App-header p {
+	font-size: 2rem;
+  /* font-size: calc(40px + 2vmin); */
+  color: white;
+}
+
+.next {
+  scroll-behavior: smooth;
+  filter: invert(97%) sepia(2%) saturate(1504%) hue-rotate(180deg) brightness(97%) contrast(91%);  /* background-color: white;  https://codepen.io/sosuke/pen/Pjoqqp */
+  border-radius: 100px;
+  /* transition-duration: 1.5s;
+  -moz-transition-duration:1.5s; 
+  -webkit-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s; */
+  transition: top ease 0.5s;
+  top: 0;
+  /* padding: 5px; */
+  /* background-opacity: 60%; */
+}
+.next:hover {
+  /* filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(310deg) brightness(119%) contrast(101%); */
+  /* filter: invert(0%) sepia(98%) saturate(0%) hue-rotate(13deg) brightness(98%) contrast(105%); */
+  filter: invert(74%) sepia(45%) saturate(3145%) hue-rotate(359deg) brightness(102%) contrast(105%);
+  top: -10px;
+
+}
+
+.section {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: top;
+}
+
+.sec-head {
+  color: white;
+  margin-top:3rem;
+  font-size: 4rem;
+  font-family: "Aeonik Pro", "Montserrat";
+  padding: 20px;
+}
+
+.faq-row-wrapper {
+  margin: 0 calc(10vw - 10px);
 }
