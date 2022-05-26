@@ -47,12 +47,13 @@ html {
   font-family: "Aeonik Pro", "Montserrat";
   padding: 15px;
 }
-.conclusion h2{
-  font-size: 18px;
-}
-.conclusion p {
+.conclusion h2 {
   font-size: 15px;
 }
+.conclusion p {
+  font-size: 12px;
+}
+
 
 
 }
@@ -69,15 +70,15 @@ html {
   .sec-head {
     color: white;
     margin-top: 2rem;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Aeonik Pro", "Montserrat";
-    padding: 15px;
+    padding: 12px;
   }
-  .conclusion h2{
-    font-size: 18px
+  .conclusion h2 {
+    font-size: 15px;
   }
   .conclusion p {
-    font-size: 15px;
+    font-size: 12px;
   }
 
 }

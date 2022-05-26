@@ -281,7 +281,7 @@ function App() {
         style={{ backgroundColor: "#f0faf8" }}
       >
         <h1 className="sec-head" style={{ color: "black" }}>
-          Yuanyang Rice Terraces (2days, 1 night)
+          Yuanyang Rice Terraces (2 days, 1 night)
         </h1>
         <div className="intros">
           <h2>
@@ -378,10 +378,10 @@ function App() {
           style={{ margin: "0 calc(10vw)", color: "white" }}
           className="intros conclusion"
         >
-          <h2 style={{ fontSize: "3rem" }}>
+          <h2>
             我们的程会是最好。我们的七个天在中国是只十一千美元。你会看些个中国的商业和文化中心。我们会棒你订机票，酒店，也订些个旅游。我希望你喜欢我们的行程会买我们的。
           </h2>
-          <p style={{ fontSize: "1.2rem" }}>
+          <p>
             Our trip will be the best. It is only $12,660 for a 7 day adventure
             in SouthWest China to see some of the most busy and historically
             significant centers and sights, right before you get back into the
