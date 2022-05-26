@@ -23,41 +23,42 @@ const images = [
   {
     original: rice1,
     // thumbnail: rice1,
-    description: "Rice Terraces in Guangzhou",
+    description: "紅河ハニ棚田",
   },
   {
     original: guangzhou8,
-    description: "Cultural Tour: Ancestral Temple and Nanfeng Ancient Kiln",
+    description: "文化旅游： Ancestral Temple and Nanfeng Ancient Kiln",
   },
   {
     original: guangzhou1,
-    // thumbnail: guangzhou1,
+    description: "照片的广州",
   },
   {
     original: rice2,
-    // thumbnail: rice2,
+    description: "紅河ハニ棚田",
   },
   {
     original: zhijin1,
-    // thumbnail: zhijin1,
+    description: "之间 （Zhijian cave)",
   },
   {
     original: guangzhou2,
-    // thumbnail: guangzhou2,
+    description: "广州高旅行",
   },
   {
     original: guangzhou3,
-    // thumbnail: guangzhou2,
+    description: "广州图书馆",
   },
   {
     original: guangzhou4,
-    description: "GuangDong Museum, only a walk from the library",
+    description: " 广东省博物馆 （GuangDong Museum) ",
   },
-  { original: guangzhou5 },
+  { original: guangzhou5 ,
+  description: "广州的自行车（Bicycle）旅游团"},
   {
     original: guangzhou6,
     description:
-      "Take the Bullet Train from GuangZhou South Station to Explore HK!",
+      "广州南站（GuangZhou South Station) 坐高铁",
   },
   { original: guangzhou7 },
 ];
