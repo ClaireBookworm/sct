@@ -124,7 +124,7 @@ const config = {
 function App() {
   return (
     <div className="App">
-      <div className="App-header heading">
+      <div id="top" className="App-header heading">
         <h1>Southwest China Travel</h1>
         <p style={{ margin: "0 calc(10vw)" }}>
           From Guangzhou, to the Yuanyang rice terraces, to the beautiful
@@ -329,7 +329,7 @@ function App() {
       <div
         id="zhijin"
         className="section2"
-        style={{ backgroundColor: "#f0faf8" }}
+        style={{ backgroundColor: "#fff9f2" }}
       >
         <h1 className="sec-head" style={{ color: "black" }}>
           Zhijin Segment (1.5 days, 1 night)
@@ -371,6 +371,17 @@ function App() {
             织金洞的附近十山，所以有需要导游。织金洞也有礼品店；你可以买很多的纪念品带回家！
           </p>
         </div>
+      </div>
+      <div className="App-header ending " >
+        {/* <h1 style={{fontSize: '4rem', color:"white"}}>Sign up today!</h1> */}
+        <div style={{ margin: "0 calc(10vw)", color: "white" }} className="intros conclusion">
+          <h2 style={{ fontSize: "3rem"}}>我们的程会是最好。我们的七个天在中国是只十一千美元。你会看些个中国的商业和文化中心。我们会棒你订机票，酒店，也订些个旅游。我希望你喜欢我们的行程会买我们的。</h2>
+          <p style={{ fontSize: "1.2rem"}}>Our trip will be the best. It is only $12,660  for a 7 day adventure in SouthWest China to see some of the most busy and historically significant centers and sights, right before you get back into the grind of school!</p>
+        
+        </div>
+        <a className="next" href="#top" style={{ transform: "scaleX(-1)"}}>
+          <img src={icon} alt="down" width="50px" height="auto"/>
+        </a>
       </div>
     </div>
   );
