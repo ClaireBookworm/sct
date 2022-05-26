@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import "./image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
 /* ImageGallery {
   max-height:calc(60vh - 80px)!important;
@@ -108,4 +109,18 @@ html {
 
 .faq-row-wrapper {
   margin: 0 calc(10vw - 10px);
+}
+
+.intros {
+  text-align: left;
+  margin: 4rem calc(10vw) 4rem calc(10vw);
+  font-family: "Noto Sans 5C", "Hiragino Sans GB", "SimHei", "Noto Sans";
+}
+
+.intros h1 {
+  padding-top: 2.5rem;
+}
+
+.intros p {
+  font-size: 1.1rem;
 }
