@@ -47,6 +47,13 @@ html {
   font-family: "Aeonik Pro", "Montserrat";
   padding: 15px;
 }
+.conclusion h2{
+  font-size: 18px;
+}
+.conclusion p {
+  font-size: 15px;
+}
+
 
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -66,7 +73,12 @@ html {
     font-family: "Aeonik Pro", "Montserrat";
     padding: 15px;
   }
-  
+  .conclusion h2{
+    font-size: 18px
+  }
+  .conclusion p {
+    font-size: 15px;
+  }
 
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
@@ -199,4 +211,10 @@ html {
   /* background-opacity: 0.7; */
   padding: 20px;
   border-radius: 30px;
+}
+.conclusion h2{
+  font-size: 3rem;
+}
+.conclusion p {
+  font-size: 1.5rem;
 }
