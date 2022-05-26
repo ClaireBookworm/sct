@@ -60,7 +60,8 @@ const images = [
     description:
       "广州南站（GuangZhou South Station) 坐高铁",
   },
-  { original: guangzhou7 },
+  { original: guangzhou7,
+  description: "广州南站"},
 ];
 
 const faq = {
