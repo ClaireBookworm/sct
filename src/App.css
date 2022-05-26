@@ -40,6 +40,14 @@ html {
     font-size: 1.5rem;
   }
 
+.sec-head {
+  color: white;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-family: "Aeonik Pro", "Montserrat";
+  padding: 15px;
+}
+
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html {
@@ -51,6 +59,14 @@ html {
     top: 0;
     left: 0;
   }
+  .sec-head {
+    color: white;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: "Aeonik Pro", "Montserrat";
+    padding: 15px;
+  }
+  
 
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
