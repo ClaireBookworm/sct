@@ -9,6 +9,7 @@ import Faq from "react-faq-component";
 export const rice1 = require("./images/rice-1.jpg");
 export const guangzhou1 = require("./images/guangzhou-1.jpg");
 export const rice2 = require("./images/rice-2.jpg");
+export const rice3 = require("./images/rice-3.jpg");
 export const guangzhou2 = require("./images/guangzhou-2.jpg");
 export const zhijin1 = require("./images/zhijin-1.jpg");
 export const guangzhou3 = require("./images/guangzhou-3.jpg");
@@ -62,6 +63,10 @@ const images = [
   },
   { original: guangzhou7,
   description: "广州南站"},
+  {
+    original: rice3,
+    description: "云南镇"
+  }
 ];
 
 const faq = {
