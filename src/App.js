@@ -247,7 +247,7 @@ function App() {
                 styles={faqStyles}
                 config={config}
             /> */}
-        <a className="next" href="#attractions">
+        <a className="next" href="#zhijin">
           <img
             src={icon}
             alt="down"
