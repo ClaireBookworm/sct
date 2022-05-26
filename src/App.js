@@ -125,10 +125,11 @@ function App() {
   return (
     <div className="App">
       <div id="top" className="App-header heading">
-        <h1>Southwest China Travel</h1>
+        <img src={logo} width="80px"></img>
+        <h1>西南旅行社</h1>
         <p style={{ margin: "0 calc(10vw)" }}>
           From Guangzhou, to the Yuanyang rice terraces, to the beautiful
-          Guiyang Zhijin caves in the span of one week, right before school
+          Guizhou Zhijin caves in the span of one week, right before school
           starts!
         </p>
         <br />
@@ -298,7 +299,7 @@ function App() {
             游客一共花（to spend money）多少钱？ (How much will tourists spend?){" "}
           </h2>
           <p>
-            游客会 一共花万九百九十八元 ($998)。多又名 名胜古迹
+            游客会 一共花万九百九十八元 ($10,998)。多又名 名胜古迹
             是便宜。旅行社的打折很好。如果你想导游，有可能有打四折。
           </p>
 
@@ -312,6 +313,8 @@ function App() {
             马上游客到紅河ハニ棚田他们能托运的行李跟前桌子服务员。第四天有可会去​​​​紅河ハニ棚田。水稻梯田（
             shuidao ditian rice terrance) 好走了。带包里面多水平，有时候热的.
           </p>
+          <h2> 打算做什么活动？对什么景点 (jǐng diǎn,attractions) 感兴趣？</h2> 
+          <p>初暑假在昆明游客会登往返公共公车。游客能看日下，我们推荐靠窗户。 马上游客到紅河ハニ棚田他们能托运的行李跟前桌子服务员。第四天有可会去​​​​紅游客ニ棚田。水稻梯田（ shuidao ditian rice terrance) 好走了。带多水瓶包里面，有时候热的. 大多时候会自由行，游客能拍照和见面当地（dāng dì, local)人。最有名的地方是 Longshuba, Bada, Douyishu, 和 Laohuzui 水稻地毯。第五天游客会去当地镇（zhén, town). 我的旅行社会照顾交通。 以后到了， 游客能试试当地菜。The Hani 人在云南。主要菜系是辣辣酸酸汤。在新地方请小心！以后当地镇游客会去之间。语录平安! </p>
         </div>
         <a className="next" href="#zhijin">
           <img
