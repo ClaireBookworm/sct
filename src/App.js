@@ -11,6 +11,7 @@ export const guangzhou1 = require('./images/guangzhou-1.jpg');
 export const rice2 = require('./images/rice-2.jpg');
 export const guangzhou2 = require('./images/guangzhou-2.jpg');
 export const zhijin1 = require('./images/zhijin-1.jpg');
+export const guangzhou3 = require('./images/guangzhou-3.jpg');
 
 const images = [
   {
@@ -32,6 +33,10 @@ const images = [
   },
   {
     original: guangzhou2,
+    // thumbnail: guangzhou2,
+  },
+  {
+    original: guangzhou3,
     // thumbnail: guangzhou2,
   },
 ];
@@ -99,12 +104,15 @@ function App() {
     <div className="App">
     	<div className="App-header heading">
     		<h1>Southwest China Travel</h1>
-    		<p>From Guangzhou, to Yuanyang rice terraces, to the beautiful Guiyang Zhijin caves!</p>
+    		<p style={{margin: '0 calc(10vw)'}}>From Guangzhou, to the Yuanyang rice terraces, to the beautiful Guiyang Zhijin caves in the span of one week, right before school starts!</p>
         <br />
         <a className="next" href="#basics"><img  src={icon} alt="down" width="50px" height="auto"/></a>
     	</div>
       <div id="basics" className="section" style={{backgroundColor: '#282c34'}}>
         <h1 className="sec-head">The Basics</h1>
+        <ul>
+          <li>Seven Days</li>
+        </ul>
         <a className="next" href="#attractions"><img src={icon} alt="down" width="50px" height="auto"/></a>
       </div>
       	<div id="attractions" className="section" style={{backgroundColor: '#000000'}}>
