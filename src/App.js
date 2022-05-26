@@ -138,7 +138,7 @@ function App() {
       </div>
       <div
         id="basics"
-        className="section"
+        className="section2"
         style={{ backgroundColor: "#282c34" }}
       >
         <h1 className="sec-head">The Basics</h1>
@@ -372,15 +372,24 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="App-header ending " >
+      <div className="App-header ending ">
         {/* <h1 style={{fontSize: '4rem', color:"white"}}>Sign up today!</h1> */}
-        <div style={{ margin: "0 calc(10vw)", color: "white" }} className="intros conclusion">
-          <h2 style={{ fontSize: "3rem"}}>我们的程会是最好。我们的七个天在中国是只十一千美元。你会看些个中国的商业和文化中心。我们会棒你订机票，酒店，也订些个旅游。我希望你喜欢我们的行程会买我们的。</h2>
-          <p style={{ fontSize: "1.2rem"}}>Our trip will be the best. It is only $12,660  for a 7 day adventure in SouthWest China to see some of the most busy and historically significant centers and sights, right before you get back into the grind of school!</p>
-        
+        <div
+          style={{ margin: "0 calc(10vw)", color: "white" }}
+          className="intros conclusion"
+        >
+          <h2 style={{ fontSize: "3rem" }}>
+            我们的程会是最好。我们的七个天在中国是只十一千美元。你会看些个中国的商业和文化中心。我们会棒你订机票，酒店，也订些个旅游。我希望你喜欢我们的行程会买我们的。
+          </h2>
+          <p style={{ fontSize: "1.2rem" }}>
+            Our trip will be the best. It is only $12,660 for a 7 day adventure
+            in SouthWest China to see some of the most busy and historically
+            significant centers and sights, right before you get back into the
+            grind of school!
+          </p>
         </div>
-        <a className="next" href="#top" style={{ transform: "scaleX(-1)"}}>
-          <img src={icon} alt="down" width="50px" height="auto"/>
+        <a className="next" href="#top">
+          <img src={icon} alt="down" width="50px" height="auto" />
         </a>
       </div>
     </div>
