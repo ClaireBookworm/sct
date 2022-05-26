@@ -12,12 +12,21 @@ export const rice2 = require("./images/rice-2.jpg");
 export const guangzhou2 = require("./images/guangzhou-2.jpg");
 export const zhijin1 = require("./images/zhijin-1.jpg");
 export const guangzhou3 = require("./images/guangzhou-3.jpg");
+export const guangzhou4 = require("./images/guangzhou-4.jpg");
+export const guangzhou5 = require("./images/guangzhou-5.jpg");
+export const guangzhou6 = require("./images/guangzhou-6.jpg");
+export const guangzhou7 = require("./images/guangzhou-7.jpg");
+export const guangzhou8 = require("./images/guangzhou-8.jpg");
 
 const images = [
   {
     original: rice1,
     // thumbnail: rice1,
     description: "Rice Terraces in Guangzhou",
+  },
+  {
+    original: guangzhou8,
+    description: "Cultural Tour: Ancestral Temple and Nanfeng Ancient Kiln",
   },
   {
     original: guangzhou1,
@@ -39,6 +48,17 @@ const images = [
     original: guangzhou3,
     // thumbnail: guangzhou2,
   },
+  {
+    original: guangzhou4,
+    description: "GuangDong Museum, only a walk from the library",
+  },
+  { original: guangzhou5 },
+  {
+    original: guangzhou6,
+    description:
+      "Take the Bullet Train from GuangZhou South Station to Explore HK!",
+  },
+  { original: guangzhou7 },
 ];
 
 const faq = {
@@ -144,9 +164,19 @@ function App() {
         style={{ backgroundColor: "#282c34" }}
       >
         <h1 className="sec-head">The Basics</h1>
-        <ul>
-          <li>Seven Days</li>
-        </ul>
+        <div className="intros" style={{color: 'white'}}>
+          <h2>开学前一周的中国旅行 (Week trip to China before the school starts)</h2>
+          <p>
+            游客会去广州，紅河ハニ棚田 （云南），和织金洞 (贵州）. (Tourists
+            will go to Guangzhou, the Yuanyuang Rice Terraces (Yunnan), and the
+            Zhijin Caves (Guizhou)). <br />
+            这个旅行是一个星期—不用怕！不经不是太长的时间，也会很好玩儿。(This
+            trip is an entire week, but fear not! It is not too long and it will
+            be very enjoyable.) <br />
+            我们会九月十号出发，九月十七号回到Boston。(We will depart on
+            September 10th and return to Boston on the 17th.)
+          </p>
+        </div>
         <a className="next" href="#attractions">
           <img src={icon} alt="down" width="50px" height="auto" />
         </a>
@@ -173,7 +203,7 @@ function App() {
           />
         </a>
       </div>
-      <div id="faq" className="section" style={{ backgroundColor: "white" }}>
+      <div id="faq" className="section2" style={{ backgroundColor: "white" }}>
         <h1 className="sec-head" style={{ color: "black" }}>
           Frequently Asked Questions
         </h1>
@@ -193,7 +223,7 @@ function App() {
       </div>
       <div
         id="guangzhou"
-        className="section"
+        className="section2"
         style={{ backgroundColor: "#f0f2f5" }}
       >
         <h1 className="sec-head" style={{ color: "black" }}>
@@ -201,7 +231,9 @@ function App() {
         </h1>
         <div className="intros">
           <h2>
-            怎么去旅游？要不要定订机票／火车票？（往返/单程票？直飞/转机？订哪个航空公司？靠走道还是靠窗户还是的位子? (How are we travelling and how do we book air/train tickets? What airlines are we booking and what seats?)
+            怎么去旅游？要不要定订机票／火车票？（往返/单程票？直飞/转机？订哪个航空公司？靠走道还是靠窗户还是的位子?
+            (How are we travelling and how do we book air/train tickets? What
+            airlines are we booking and what seats?)
           </h2>
           <p>
             第一站在广州！广州是一个中国公司和文化中心。SouthWest China Travel
@@ -262,24 +294,31 @@ function App() {
       </div>
       <div
         id="zhijin"
-        className="section"
+        className="section2"
         style={{ backgroundColor: "#f0faf8" }}
       >
         <h1 className="sec-head" style={{ color: "black" }}>
           Zhijin Segment (1 day, 1 night)
         </h1>
         <div className="intros">
-        <p>贵州的天气很凉快但是不会太冷。贵州的菜系是有名的—他们的辣菜特别的好吃也很受欢迎。 <br />
-        The weather in Guizhou is quite cool but it isn’t too cold in the fall. Guizhou cuisine is world-famous—their spicy dishes are especially tasty and popular. Guizhou culture has many stories. Guizhou also has many historic villages—these villages are historical landmarks of the Miao people, who used to farm in the area.
+          <p>
+            贵州的天气很凉快但是不会太冷。贵州的菜系是有名的—他们的辣菜特别的好吃也很受欢迎。{" "}
+            <br />
+            The weather in Guizhou is quite cool but it isn’t too cold in the
+            fall. Guizhou cuisine is world-famous—their spicy dishes are
+            especially tasty and popular. Guizhou culture has many stories.
+            Guizhou also has many historic villages—these villages are
+            historical landmarks of the Miao people, who used to farm in the
+            area.
             <br /> <br />
-
-        贵州文化有很多故事。贵州有很多的村庄—这些村庄是苗族人的历史地标。贵州有很漂亮的织金洞。织金洞需需要一整天闯过，有一路的漂亮的钟乳石和石笋. 可以照很多的照片。他们曾经在该地区耕种 <br />
-        There is a very beautiful Zhijin Cave in Guizhou. Zhijin Cave takes a whole day to pass through, and there are beautiful stalactites and stalagmites all along the way, where you can take a lot of pictures! </p>
+            贵州文化有很多故事。贵州有很多的村庄—这些村庄是苗族人的历史地标。贵州有很漂亮的织金洞。织金洞需需要一整天闯过，有一路的漂亮的钟乳石和石笋.
+            可以照很多的照片。他们曾经在该地区耕种 <br />
+            There is a very beautiful Zhijin Cave in Guizhou. Zhijin Cave takes
+            a whole day to pass through, and there are beautiful stalactites and
+            stalagmites all along the way, where you can take a lot of pictures!{" "}
+          </p>
         </div>
-    
-</div>
-
-
+      </div>
     </div>
   );
 }

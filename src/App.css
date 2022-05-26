@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import "./image-gallery.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
@@ -69,6 +69,7 @@ html {
 }
 
 .next {
+  padding: 30px;
   scroll-behavior: smooth;
   filter: invert(97%) sepia(2%) saturate(1504%) hue-rotate(180deg) brightness(97%) contrast(91%);  /* background-color: white;  https://codepen.io/sosuke/pen/Pjoqqp */
   border-radius: 100px;
@@ -97,6 +98,14 @@ html {
   flex-direction: column;
   align-items: top;
   justify-content: top;
+}
+
+.section2 {
+  align-items: top;
+  justify-content: top;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .sec-head {
