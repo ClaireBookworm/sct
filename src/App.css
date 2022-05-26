@@ -28,12 +28,12 @@ html {
 @media (min-width:320px)  { 
   html {
     width: 100%;
-    /* height: 100%; */
-    /* margin: 0; */
+    height: 100%; 
+    margin: 0;
     overflow-x: hidden;
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
+    position: absolute; 
+    top: 0; 
+    left: 0;
   }
   /* smartphones, iPhone, portrait 480x320 phones */ 
   .heading h1 {
@@ -161,7 +161,7 @@ html {
 .intros {
   text-align: left;
   margin: 4rem calc(10vw) 4rem calc(10vw);
-  font-family: "Hiragino Sans GB", "Source Han Sans ", "Noto Sans 5C", "SimHei", "Noto Sans";
+  font-family: "Hiragino Sans GB", "Source Han Sans ", "Noto Sans 5C", "SimHei", "PingFang SC", "Noto Sans";
 }
 
 .intros h1 {
@@ -175,7 +175,7 @@ html {
 .faq-row-wrapper .faq-title .faq-body .faq-row .row-title .row-content .row-content-text{
   text-align: left !important;
   align-items: left !important;
-  font-family: "Hiragino Sans GB", "Source Han Sans ", "Noto Sans 5C", "SimHei", "Noto Sans";
+  font-family: "Hiragino Sans GB", "Source Han Sans ", "Noto Sans 5C", "SimHei", "PingFang SC", "Noto Sans";
 }
 
 .conclusion {

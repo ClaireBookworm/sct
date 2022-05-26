@@ -172,7 +172,7 @@ function App() {
       </div>
       <div
         id="attractions"
-        className="section"
+        className="section2"
         style={{ backgroundColor: "#000000" }}
       >
         <h1 className="sec-head">The Attractions (景点)</h1>
